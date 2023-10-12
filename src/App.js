@@ -4,12 +4,12 @@ import './App.css';
 //import arc from './arc.jpg';
 import Sidebar from './components/Sidebar';
 import Products from './components/Products';
-
 function App() {
   return (
     <>
-   
-    <Products/>
+    <Sidebar /> <Products/>
+    
+    {/* <Users/> */}
     {/* <img src={arc} alt="mo preview"/> */}
     </>
   );
